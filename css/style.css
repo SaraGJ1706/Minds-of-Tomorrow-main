@@ -1,0 +1,74 @@
+@font-face {
+    font-family: ComicNeue-Bold;
+    src : url(../font-type/ComicNeue-Bold.ttf); /* Especifica la URL de la carpeta donde se descargó previamente la fuente de Google Font */
+}
+
+.body {
+    font-family: ComicNeue-Bold; /* Aplica la fuente personalizada */
+}
+
+.header1 {
+    text-align: center;
+    background-image: url(../img/banner-2.jpg);
+    width: 100%; /* Ocupa todo el ancho de la página */
+    height: 620px;
+    background-position: center;
+    background-size: cover; /* Asegura que la imagen cubra todo el div */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 80px;
+}
+
+.img-blanco {
+    width: 500px;
+    height: 500px;
+}
+
+p {
+    font-size: 40px;
+}
+
+.header2 {
+    font-size: 50px;
+}
+
+.header3 {
+    font-size: 50px;
+    text-align: center;
+}
+
+.texto {
+    font-size: 20px;
+    text-align: center;
+}
+
+#backgroung-green {
+    background-color: rgb(38, 248, 185); /* Fondo verde */
+    width: 100%; /* 100% del ancho de la ventana */
+}
+
+.header4 {
+    font-size: 50px;
+    text-align: center;
+    background-color: rgb(0, 123, 255);
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#backgroung-black {
+    background-color: black;
+    color: white;
+    font-size: 20px;
+}
+
+#texto {
+    font-size: 20px;
+}
+
+.img-green {
+    width: 300px;
+    height: 400px;
+}
