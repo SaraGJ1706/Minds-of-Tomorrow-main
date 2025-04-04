@@ -1,12 +1,15 @@
+/*Fuente de la pagina*/
 @font-face {
     font-family: ComicNeue-Bold;
     src : url(../font-type/ComicNeue-Bold.ttf); /* Especifica la URL de la carpeta donde se descargó previamente la fuente de Google Font */
 }
 
+/*Fuente de la pagina aplicada a todod el cuerpo*/
 .body {
     font-family: ComicNeue-Bold; /* Aplica la fuente personalizada */
 }
 
+/*Estilo del primer encabezado de la pagina*/
 .header1 {
     text-align: center;
     background-image: url(../img/banner-2.jpg);
@@ -20,34 +23,40 @@
     font-size: 80px;
 }
 
+/*tamaño de las imagenes con texto al lado*/
 .img-blanco {
     width: 500px;
     height: 500px;
 }
 
+/*Tamaño del texto*/
 p {
     font-size: 40px;
 }
 
+/*Tamaño del seguno encabezado*/
 .header2 {
     font-size: 50px;
 }
 
+/*Tamaño del tercer encabezado*/
 .header3 {
     font-size: 50px;
     text-align: center;
 }
 
+/*Tamaño y aliniacion del los titulos del apartado en verde*/
 .texto {
     font-size: 20px;
     text-align: center;
 }
 
+/*Fondo del apartado verde*/
 #backgroung-green {
     background-color: rgb(38, 248, 185); /* Fondo verde */
-    width: 100%; /* 100% del ancho de la ventana */
 }
 
+/*Color, tamaño y posicion del encabezado con fonfo azul*/
 .header4 {
     font-size: 50px;
     text-align: center;
@@ -58,16 +67,19 @@ p {
     align-items: center;
 }
 
+/*Estilo del pie de pagina*/
 #backgroung-black {
     background-color: black;
     color: white;
     font-size: 20px;
 }
 
+/*Tamaño del pie de pagina*/
 #texto {
     font-size: 20px;
 }
 
+/*Tamaño de las imagenes del apartado verde*/
 .img-green {
     width: 300px;
     height: 400px;
